@@ -4,7 +4,7 @@ class Car{
     public $color = "red";
 
     public function drive(){
-        echo "I am driving a car\n";
+        echo "I am driving a {$this->color} car.\n";
     }
 
 }
