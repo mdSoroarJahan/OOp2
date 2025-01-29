@@ -19,9 +19,15 @@ $obj1->drive();
 
 class MyClass{
     public static $myStaticProperty = "This is a static property\n";
+
+    public static function myStaticFunction(){
+        echo "This is a static function and " . self::$myStaticProperty . ".\n";
+    }
+
 }
 
 echo MyClass::$myStaticProperty;
+MyClass::myStaticFunction();
 
 
 
