@@ -17,6 +17,12 @@ $obj1 = new MyCar("orange");
 
 $obj1->drive();
 
+class MyClass{
+    public static $myStaticProperty = "This is a static property\n";
+}
+
+echo MyClass::$myStaticProperty;
+
 
 
 ?>
